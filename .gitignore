@@ -15,3 +15,5 @@ __pycache__/
 
 # Local session state or temporary artifacts
 *.log
+
+test.ipynb
