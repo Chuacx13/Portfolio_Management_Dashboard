@@ -1,0 +1,17 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS & Editor Specific
+.DS_Store
+.vscode/
+.idea/
+
+# Local session state or temporary artifacts
+*.log
