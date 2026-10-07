@@ -1,4 +1,6 @@
-# Portfolio_Management_Dashboard# FX Portfolio and Risk Management Dashboard
+# Portfolio_Management_Dashboard
+
+# FX Portfolio and Risk Management Dashboard
 
 An interactive FX Spot portfolio management and risk monitoring dashboard built using Python and Streamlit. The application loads sample trade blotter records from a CSV file, ingests market data from yahoo finance, tracks portfolio P&L, and conducts portfolio risk analysis.
 
@@ -72,7 +74,7 @@ Blotter view broken down to the individual trade execution level:
 Risk calculations implement the Variance-Covariance (parametric) method:
 
 - **Normal Distribution of Returns**: Daily exchange rate percentage returns are assumed to be independent, identically distributed, and follow a multivariate normal distribution.
-- **Portfolio Variance**:
+- **Portfolio Standard Deviation**:
 
 $$\sigma_p = \sqrt{\mathbf{w}^T \boldsymbol{\Sigma} \mathbf{w}}$$
 
@@ -135,7 +137,7 @@ Python 3.11 or higher is required.
 ### 2. Clone Repository, Install Requirements and Run Application
 
 ```bash
-git clone [git@github.com:Chuacx13/Portfolio_Management_Dashboard.git](git@github.com:Chuacx13/Portfolio_Management_Dashboard.git)
+git clone git@github.com:Chuacx13/Portfolio_Management_Dashboard.git
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
